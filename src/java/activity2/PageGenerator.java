@@ -20,8 +20,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "PageGenerator", urlPatterns = {"/Pager"})
 public class PageGenerator extends HttpServlet {
 
-    private static final int NUM_TABLE_ROWS = 3;
-    private static final int NUM_TABLE_COLS = 3;
+    private final int NUM_TABLE_ROWS = 3;
+    private final int NUM_TABLE_COLS = 3;
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

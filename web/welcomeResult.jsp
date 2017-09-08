@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Aug 31, 2017, 9:18:24 PM
+    Document   : welcomeResult
+    Created on : Sep 7, 2017, 6:53:51 PM
     Author     : Carson
 --%>
 
@@ -9,10 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Activity 4</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <p>Go to Welcome form <a href="welcome.jsp">HERE</a></p>
+        <h2>Welcome Result</h2>
+        <p></p>
+        <h2 style=" color:black;">${msg}</h2>
     </body>
 </html>
