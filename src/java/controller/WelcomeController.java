@@ -16,8 +16,8 @@ import model.WelcomeService;
 @WebServlet(name = "WelcomeController", urlPatterns = {"/greeter"})
 public class WelcomeController extends HttpServlet {
 
-    private static final String WELCOME_FORM = "/welcomeForm.jsp";
-    private static final String WELCOME_RESULT = "/WelcomeResult.jsp";
+    private final String WELCOME_FORM = "/welcome.jsp";
+    private final String WELCOME_RESULT = "/welcomeResult.jsp";
 
    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
